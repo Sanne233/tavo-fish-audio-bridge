@@ -26,3 +26,7 @@
 - 不要把 Fish Audio Key 写进仓库或 Tavo。
 - 不要公开 `TAVO_PROXY_TOKEN`；它相当于这个转换器的密码。
 - 转换器只接受允许的 Fish Audio 模型和音频格式。
+
+## 部署
+
+主分支已连接 Vercel；提交更新后会自动触发生产部署。
