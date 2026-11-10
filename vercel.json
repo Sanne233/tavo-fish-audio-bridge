@@ -1,0 +1,28 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/v1/audio/speech",
+      "destination": "/api/speech"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/v1/audio/speech",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Authorization, Content-Type"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "POST, OPTIONS"
+        }
+      ]
+    }
+  ]
+}

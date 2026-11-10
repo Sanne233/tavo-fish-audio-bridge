@@ -1,0 +1,12 @@
+{
+  "name": "tavo-fish-audio-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check api/speech.js && node --check api/health.js && node tests/speech.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
